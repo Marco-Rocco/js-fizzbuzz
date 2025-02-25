@@ -1,0 +1,17 @@
+# js-fizzbuzz
+
+## Scrivi un programma che stampi i numeri da 1 a 100;
+ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
+Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
+
+---
+
+## soluzione
+
+- crea un programma che stampi numeri da 1 a 100
+    - dichiara una variabile contatore
+    - dichiara un ciclo for e imposta 100 come limite massimo
+- individua i numeri multipli di 3, di 5, e sia di 3 che di 5
+- sostituisci i numeri multipli di 3 con "fizz"
+- sostituisci i numeri multipli di 5 con "buzz"
+- sostituisci i numeri multipli di 3 e 5 con "fizzbuzz"
