@@ -7,4 +7,9 @@ for (let counter = 1; counter <= 100; counter++) {
         let counter = 'fizz'
         console.log(counter);
     }
+
+    else if (counter % 5 === 0) {
+        let counter = 'buzz'
+        console.log(counter);
+    }
 }
