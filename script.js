@@ -1,23 +1,23 @@
 console.log('fizzbuzz');
 
-for (let counter = 1; counter <= 100; counter++) {
+for (let i = 1; i <= 100; i++) {
 
-    if (counter%5 === 0 && counter%3 === 0) {
-        let counter = 'fizzbuzz'
-        console.log(counter);
+    if (i%5 === 0 && i%3 === 0) {
+        let i = 'fizzbuzz'
+        console.log(i);
     }
 
-    else if (counter%3 === 0) {
-        let counter = 'fizz'
-        console.log(counter);
+    else if (i%3 === 0) {
+        let i = 'fizz'
+        console.log(i);
     }
 
-    else if (counter%5 === 0) {
-        let counter = 'buzz'
-        console.log(counter);
+    else if (i%5 === 0) {
+        let i = 'buzz'
+        console.log(i);
     }
 
     else {
-        console.log(counter)
+        console.log(i)
     }
 }
